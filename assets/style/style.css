@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Luciole-Regular;
+  src: url("../fonts/Luciole/Luciole-Regular.ttf");
+}
+
+@font-face {
+  font-family: Luciole-Bold;
+  src: url(../fonts/Luciole/Luciole-Bold.ttf);
+}
+
+@font-face {
+  font-family: Luciole-Italic;
+  src: url(../fonts/Luciole/Luciole-Regular-Italic.ttf);
+}
+
+@font-face {
+  font-family: Luciole-Bold-Italic;
+  src: url(../fonts/Luciole/Luciole-Bold-Italic.ttf);
+}
+
+:root {
+  --primary-font: "Luciole-Regular";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.a-btn {
+  background-color: transparent;
+  padding: 1rem 2.5rem;
+  border: 2px solid black;
+  border-radius: 75px;
+  box-shadow: 2px 2px 4px 0px #00000040;
+  font-family: var(--primary-font);
+  color: #383838;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #f1eadf;
+    font-size: 1.25rem;
+  }
+}
