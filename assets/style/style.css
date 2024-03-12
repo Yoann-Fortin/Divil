@@ -24,6 +24,8 @@
   --dark-color: #383838;
   --light-color: #f1eadf;
 
+  --background-light: #f5f3f0;
+
   --gutter: 1rem;
 }
 
@@ -31,6 +33,56 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
+  line-height: 1.5;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--dark-color);
+  font-family: var(--primary-font);
+  padding: 1rem;
+}
+
+/* NAV */
+
+nav {
+  display: flex;
+}
+
+nav > a > img {
+  width: 8rem;
+  height: 5rem;
+}
+
+nav > ul {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav > ul > li {
+  padding: 0.25rem;
+  font-size: small;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+section > p {
+  width: 80%;
+  line-height: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+section > p::before {
+  background-image: url(../images/telecharger-arrow.png);
 }
 
 .a-btn {
