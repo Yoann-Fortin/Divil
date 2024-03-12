@@ -1,15 +1,112 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Divil</title>
-    <link rel="stylesheet" href="assets/style/style.css" />
-  </head>
-  <body>
-    <section>
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Divil</title>
+   <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+   <header>
+      <nav>
+         <a href="/">
+            <img src="./assets/pictures/logoSVG.svg" alt="Retour à l'accueil" width="auto" height="72px">
+         </a>
+         <ul>
+            <li>Qui sommes-nous</li>
+            <li>Contact</li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <h1>Les Div sont le mal</h1>
+      <article>
+         <p>Les Div sont le mal ! Je n'ai de cesse de le répéter à qui veut bien l'entendre, voire à le répéter en
+            boucle à mes élèves qui sont pollués d'exemples de code avec des div utilisées à tort et à travers. Pour
+            s'en rendre compte, il suffit d'utiliser le mot clé "Pourquoi ?". Bien souvent, c'est parce que c'est censé
+            être plus simple de styliser une div... laissez-moi rire, c'est même l'inverse qui peut se produire avec la
+            surutilisation de div. D'autres fois, c'est parce qu'elle ou il ne savait pas quelle balise HTML utiliser.
+            C'est comme si un chirurgien ne savait pas quoi utiliser entre un scalpel et un bistouri et décidait
+            d'utiliser un canif...</p>
+
+         <p>Réellement il n'y a que très peu de raisons valables d'utiliser des div, et ce n'est pas seulement moi qui
+            le dis, ni même mes camarades extrémistes amoureux du beau code accessible, mais le WHATWG en premier lieu :
+         </p>
+
+         <cite lang="en"> are strongly encouraged to view the div element as an element of last resort, for when no
+            other element is suitable. Use of more appropriate elements instead of the div element leads to better
+            accessibility for readers and easier maintainability for authors.</cite>
+
+         <p>En ne respectant pas une bonne sémantique, on finit par nuire au référencement mais également à
+            l'accessibilité web. Okay, un bon dev est fainéant, mais un bon dev reste un professionnel expert dans son
+            domaine, donc fainéant oui, mais jusqu'à un certain point seulement.</p>
+
+         <h2>Une balise pour les gouverner toutes ?</h2>
+         <p>Là est la question, pourquoi systématiquement utiliser des <code>&lt;div&gt;</code> ? Il y a tellement plus de
+            possibilités que de se contenter de cette balise sans aucune sémantique. Oui, aucune sémantique, il est
+            alors très facile de se dire qu'on ne risque rien, sauf que choisir une <code>&lt;div&gt;</code> au lieu d'une
+            balise plus sémantique, c'est déjà faire un choix, qui peut être désastreux. Puisqu'il n'a aucune
+            sémantique, il n'est pas interprété correctement par les robots d'indexation et les technologies
+            d'assistance. On vient de faire pire que mieux.</p>
+         <p>Là est la question, pourquoi systématiquement utiliser des <code>&lt;div&gt;</code> ? Il y a tellement plus de
+            possibilités que de se contenter de cette balise sans aucune sémantique. Oui, aucune sémantique, il est
+            alors très facile de se dire qu'on ne risque rien, sauf que choisir une <code>&lt;div&gt;</code> au lieu d'une
+            balise plus sémantique, c'est déjà faire un choix, qui peut être désastreux. Puisqu'il n'a aucune
+            sémantique, il n'est pas interprété correctement par les robots d'indexation et les technologies
+            d'assistance. On vient de faire pire que mieux.</p>
+
+         <p>Là est la question, pourquoi systématiquement utiliser des <code>&lt;div&gt;</code> ? Il y a tellement plus de
+            possibilités que de se contenter de cette balise sans aucune sémantique. Oui, aucune sémantique, il est
+            alors très facile de se dire qu'on ne risque rien, sauf que choisir une <code>&lt;div&gt;</code> au lieu d'une
+            balise plus sémantique, c'est déjà faire un choix, qui peut être désastreux. Puisqu'il n'a aucune
+            sémantique, il n'est pas interprété correctement par les robots d'indexation et les technologies
+            d'assistance. On vient de faire pire que mieux.</p>
+
+         <p>Oui les possibilités sont vastes, en excluant les balises dédiées aux maths et aux graphiques svg, on
+            recense 137 balises HTML qui peuvent être utilisées entre les balises <code><body></code>, dont 22 sont
+            obsolètes et 1 est encore considérée comme expérimentale. Ce qui nous laisse encore un choix de 114 balises
+            HTML.</p>
+
+         <p>C'est vrai je grossis le trait, on n'utilisera pas systématiquement des balises div, les balises de Heading
+            (<code>&lt;h1&gt;</code> à <code>&lt;h6&gt;</code>) par exemple sont régulièrement utilisées, tout comme les balises
+            <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code> etc... mais rapidement on en vient à utiliser des balises
+            <code>&lt;div&gt;</code> parce qu'on ne sait pas quoi utiliser.</p>
+
+         <h2>Des div pour styliser ?</h2>
+         <p>C'est ce qui revient aussi régulièrement, on les utilise pour styliser plus rapidement, ou plus facilement,
+            les différents éléments de sa page web. En tout cas c'est ce qu'on croit, mais la complexité peut venir et
+            on finit par s'arracher les cheveux. Mais bien entendu, c'est la faute du CSS, pas de cette balise
+            magique...</p>
+
+         <p>Pourtant, il suffirait de se pencher un peu plus sur la bonne utilisation du CSS pour s'en sortir sans, en
+            modifiant les styles par défaut, jouant avec FlexBox ET Grid au besoin, pourquoi pas des positions absolute,
+            bref les possibilités sont infinies ou presque. Et puis, est-ce que ça vous viendrait à l'esprit de
+            n'utiliser que des boucles for en JS, sans utiliser les autres méthodes à votre disposition ? Alors pourquoi
+            utiliser des balises <code>&lt;div&gt;</code> pour soi-disant se simplifier la vie ?</p>
+
+         <h2>Fainéant mais intelligent</h2>
+         <p>Oui, trouver la bonne balise pour son besoin immédiat n'est pas toujours facile, il faut savoir se poser les
+            bonnes questions, et savoir abstraire la sémantique du style. C'est d'ailleurs le but des feuilles de style
+            CSS, séparer la sémantique du style, soyons donc de bons développeurs Frontend et n'oublions pas ce détail
+            qui a toute son importance.</p>
+
+         <p>Nous avons voulu vous permettre de trouver facilement la balise HTML que vous pouvez utiliser pour respecter
+            les bonnes pratiques attendues.</p>
+         <a href="#" class="a-btn">START</a>
+      </article>
+      <template>
+         <article>
+            <h2>Choisissez une option entre les différentes questions</h2>
+            <ul>
+               <li><a href=""></a></li>
+            </ul>
+         </article>
+      </template>
       <a href="#" class="a-btn">START</a>
-    </section>
-    <script src="script/script.js"></script>
-  </body>
+      <a href="" aria-label="Retour en haut de page">⬆️</a>
+   </main>
+   <script src="assets/script/script.js"></script>
+</body>
 </html>
