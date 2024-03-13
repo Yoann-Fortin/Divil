@@ -8,8 +8,9 @@ const buttons = document.getElementsByClassName("a-btn");
 Array.from(buttons).forEach((button) => {
   button.addEventListener("click", (event) => {
     event.preventDefault();
-    const redirect = button.href.split("/")[3];
-    console.log(redirect);
+    // const redirect = button.href.split("/")[3];
+    const redirect = "./article.html";
+    window.location.href = redirect;
   });
 });
 
