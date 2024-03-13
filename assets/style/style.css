@@ -88,6 +88,7 @@ main > a > img {
   font-family: var(--primary-font);
   color: var(--dark-color);
   padding: 0.2rem;
+  background-color: var(--background-light);
 }
 
 section {
@@ -146,4 +147,12 @@ article p:last-child {
     background-color: var(--light-color);
     font-size: calc(var(--gutter) * 1.25);
   }
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+  display: none;
 }

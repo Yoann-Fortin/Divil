@@ -19,3 +19,13 @@ arrowImage.src = "../assets/images/arrow-down.png";
 const sectionElement = document.querySelector("section");
 const aElement = sectionElement.querySelector("a");
 sectionElement.insertBefore(arrowImage, aElement);
+
+// Position back-to-top link
+window.addEventListener("scroll", function () {
+  const backToTopButton = document.getElementById("back-to-top");
+  if (window.scrollY > window.innerHeight * 0.8) {
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+});
