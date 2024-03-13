@@ -99,7 +99,8 @@ section {
   height: calc(100vh - 3rem);
 }
 
-section > p {
+section > p,
+cite {
   width: 80%;
   font-size: 1.4rem;
   line-height: 2rem;
