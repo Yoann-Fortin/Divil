@@ -99,8 +99,7 @@ section {
   height: calc(100vh - 3rem);
 }
 
-section > p,
-cite {
+section > p {
   width: 80%;
   font-size: 1.4rem;
   line-height: 2rem;
@@ -127,6 +126,11 @@ article > p {
 
 article h2 {
   margin-top: 3rem;
+}
+
+cite {
+  display: inline-block;
+  margin-bottom: 2rem;
 }
 
 article p:last-child {
