@@ -1,0 +1,298 @@
+[
+   {
+      "id": "8631c16b-39b0-4d49-a1b2-62126428c628",
+      "text": "Votre besoin principal est-il de structurer la présentation de votre page web ?",
+      "subQuestions": [
+         {
+            "id": "c1628510-158e-4b57-a6af-754dd42d0fab",
+            "text": "Voulez-vous montrer clairement la partie la plus importante de votre page ?",
+            "link": "main"
+         },
+         {
+            "id": "436fc023-c1e7-4090-a09e-360904f3df4d",
+            "text": "Est-ce que cette partie de votre page peut être partagée seule sur une nouvelle page ?",
+            "link": "article"
+         },
+         {
+            "id": "0355031d-2c95-4724-943e-ad1434645e2d",
+            "text": "Est-ce que vous cherchez à organiser votre contenu en différentes parties, chacune avec son propre titre et sujet ?",
+            "link": "section"
+         },
+         {
+            "id": "16e13f52-f609-415a-9b16-6738d8851db6",
+            "text": "Voulez-vous ajouter des éléments à côté de votre contenu principal, qui peuvent être consultés séparément ?",
+            "link": "aside"
+         },
+         {
+            "id": "4d9de7db-2065-4b4f-9219-359bc0f81f54",
+            "text": "Voulez-vous créer une zone qui introduit votre site, ou une partie de votre page ?",
+            "link": "header"
+         },
+         {
+            "id": "a268090c-1aae-4963-bb56-c56c068a34a5",
+            "text": "Avez-vous besoin d'une zone à la fin de votre site ou d'une partie de votre page pour des informations complémentaires ?",
+            "link": "footer"
+         },
+         {
+            "id": "14eac183-f373-45f9-a7b4-27a61324de74",
+            "text": "Cherchez-vous à associer étroitement un titre à un texte explicatif ou complémentaire juste en dessous ?",
+            "link": "hgroup"
+         },
+         {
+            "id": "cc37110d-ee33-4802-8593-59b82737617b",
+            "text": "Cherchez-vous à mettre en place une section clairement définie pour la navigation, où les visiteurs peuvent cliquer pour visiter différentes parties de votre site web ?",
+            "link": "nav"
+         },
+         {
+            "id": "cc2c6c96-4442-4e87-b881-f343a0a11d61",
+            "text": "Est-ce que ce contenu, s'il était déplacé à un autre endroit de la page, conserverait son lien et sa pertinence par rapport au sujet traité dans le texte principal ?",
+            "link": "figure"
+         },
+         {
+            "id": "0f47bf6b-f6fe-429b-9f8f-30005f4a5d04",
+            "text": "Est-ce que vous souhaitez mettre en évidence des informations telles que l'adresse physique, l'email, ou les réseaux sociaux d'une entité spécifique ?",
+            "link": "address"
+         },
+         {
+            "id": "1f083f83-3358-453f-8de2-dfa6d5ab6de2",
+            "text": "Votre contenu nécessite-t-il un conteneur générique sans connotation sémantique spécifique ?",
+            "link": "div"
+         }
+      ]
+   },
+   {
+      "id": "c1628510-158e-4b57-a6af-754dd42d0fab",
+      "text": "Votre page nécessite-t-elle principalement l'ajout ou la mise en forme de contenu textuel ?",
+      "subQuestions": [
+         {
+            "id": "afcbe94d-71f2-4332-a430-918835992d41",
+            "text": "Voulez-vous organiser votre texte en blocs distincts, chacun commençant sur une nouvelle ligne et séparé des autres par un espace ?",
+            "link": "p"
+         },
+         {
+            "id": "9c3fede8-e536-4aa1-8f20-7490b3ba3e99",
+            "text": "Avez-vous besoin d'un titre pour votre page ou une partie de votre page ?",
+            "link": "les-balises-headings"
+         },
+         {
+            "id": "1b9c8b55-388e-43a0-87f9-a5c9a5412457",
+            "text": "Avez-vous besoin de mettre en évidence un morceau de texte pour une importance forte ?",
+            "link": "strong"
+         },
+         {
+            "id": "4b893f39-753e-4f51-805e-dfc7a62d6080",
+            "text": "Avez-vous des mots ou des phrases dans votre texte auxquels vous voulez donner un accent spécial pour montrer qu'ils sont importants dans le contexte ?",
+            "link": "em"
+         },
+         {
+            "id": "706b47fb-2c8d-449f-ada6-1670939bf90f",
+            "text": "Cherchez-vous à intégrer dans votre contenu des mots ou des phrases qui ne sont pas de vous, mais que vous souhaitez citer pour appuyer vos propos ?",
+            "link": "blockquote"
+         },
+         {
+            "id": "5d32c2ab-e779-4f06-a920-bbcdba338f0d",
+            "text": "Avez-vous de petites phrases ou des citations courtes dans votre texte que vous voulez identifier clairement comme étant de quelqu'un d'autre ?",
+            "link": "q"
+         },
+         {
+            "id": "b7f57e05-e268-4af0-84de-075ba408124d",
+            "text": "Le texte contient-il des éléments de code ou des termes techniques ?",
+            "link": "code"
+         },
+         {
+            "id": "fc775fa6-bdee-4091-8e3c-85c820fe4367",
+            "text": "Le texte nécessite-t-il un formatage préservé, comme pour le code ou la poésie ?",
+            "link": "pre"
+         },
+         {
+            "id": "892985dc-50f8-4b29-acab-a1a74b6a5ccb",
+            "text": "Envisagez-vous d'incorporer des mots ou des phrases dans une langue différente ou de mettre en évidence des parties spécifiques de votre contenu pour une meilleure compréhension et une expérience utilisateur enrichie ?",
+            "link": "span"
+         }
+      ]
+   },
+   {
+      "id": "80d66b34-b18d-4be7-80b6-cb06e9c14e67",
+      "text": "Avez-vous besoin d'ajouter des images, des vidéos ou d'autres éléments multimédias à votre page ?",
+      "subQuestions": [
+         {
+            "id": "91d5aee9-f009-49f0-8e47-4e062cc88856",
+            "text": "Avez-vous besoin d'intégrer une image fixe dans votre page ?",
+            "link": "img"
+         },
+         {
+            "id": "e6da0af7-c19b-431e-bd8a-d97f4947b0cf",
+            "text": "Voulez-vous que votre site web affiche différentes images selon la taille de l'écran ou le type d'appareil utilisé par le visiteur ?",
+            "link": "picture"
+         },
+         {
+            "id": "f722c4f5-4f3b-4cb0-9879-cc88a51a1c12",
+            "text": "L'élément est-il destiné à intégrer un fichier audio ?",
+            "link": "audio"
+         },
+         {
+            "id": "4d8fb2f4-9fa7-410c-ad40-1b8ef1f2dd79",
+            "text": "L'élément est-il destiné à intégrer une vidéo ?",
+            "link": "video"
+         },
+         {
+            "id": "72345081-6b53-45a0-a9bc-f0be1caa2402",
+            "text": "Avez-vous une image sur votre site web où vous voulez que différentes parties de l'image soient des liens vers d'autres pages ou informations ?",
+            "link": "map"
+         },
+         {
+            "id": "7f056ec1-abb2-42c8-9d4b-6ea4849d5c24",
+            "text": "Voulez-vous afficher du contenu d'un autre site web, comme une vidéo ou une carte, directement sur votre page sans rediriger vos utilisateurs ?",
+            "link": "iframe"
+         }
+      ]
+   },
+   {
+      "id": "4b28d57b-d5d2-4ba8-993a-1cbc66599195",
+      "text": "L'élément servira-t-il à organiser des informations sous forme de liste ou nécessite-t-il une structure de données groupées ?",
+      "subQuestions": [
+         {
+            "id": "9a1f5afb-40dd-4fc5-b4a2-f759cb754225",
+            "text": "Avez-vous des mots ou des idées que vous voulez expliquer avec des descriptions ?",
+            "link": "dl"
+         },
+         {
+            "id": "c307a48b-c491-4d30-9bc3-b9ff7587caa4",
+            "text": "Voulez-vous faire une liste où l'ordre des choses n'est pas important ?",
+            "link": "ul"
+         },
+         {
+            "id": "be6894ca-68a9-434f-95a3-b0aaaab71bc4",
+            "text": "Est-ce que l'ordre des choses dans votre liste est important ?",
+            "link": "ol"
+         }
+      ]
+   },
+   {
+      "id": "5d9c10f8-03e1-4326-acc8-6393c1d458ea",
+      "text": "Votre page requiert-elle une action de la part de vos utilisateurs et utilisatrices ?",
+      "subQuestions": [
+         {
+            "id": "55d6bb40-f390-4036-b3ae-e83f2443b8d5",
+            "text": "Votre contenu nécessite-t-il de créer un lien vers une autre page Web, un document, ou une adresse e-mail ?",
+            "link": "a"
+         },
+         {
+            "id": "151049d6-4948-403d-9daa-56cb9a5136ba",
+            "text": "Votre contenu peut-il bénéficier d'une interaction où l'utilisateur peut choisir d'afficher ou de masquer des informations supplémentaires ?",
+            "link": "details"
+         },
+         {
+            "id": "b790675b-d320-4990-840f-294db86e3c90",
+            "text": "Avez-vous besoin de créer une boîte de dialogue interactive qui peut être modale (bloquant l'interaction avec le reste de la page) ou non modale ?",
+            "link": "dialog"
+         },
+         {
+            "id": "b344fc43-6bcd-4f59-bfee-68c8d98b4a98",
+            "text": "Votre page web nécessite-t-elle un bouton pour soumettre des données de formulaire ou pour déclencher une action spécifique ?",
+            "link": "button"
+         },
+         {
+            "id": "d2163422-ca22-4481-94ec-12bfd80dea01",
+            "text": "Votre site web nécessite-t-il des éléments interactifs comme des champs de saisie, des boutons d'option, ou des cases à cocher pour recueillir des informations de l'utilisateur ?",
+            "link": "form"
+         },
+         {
+            "id": "4ecefcc5-8bf6-4139-82c2-3d1bffbe4f8e",
+            "text": "Cherchez-vous à rendre vos formulaires plus accessibles et faciles à utiliser, en particulier pour les technologies d'assistance et les écrans tactiles ?",
+            "link": "label"
+         },
+         {
+            "id": "f786f411-180d-47b0-8636-ba2645c1482b",
+            "text": "Cherchez-vous à utiliser des contrôles de formulaire personnalisables pour différents types de saisie de données ?",
+            "link": "input"
+         },
+         {
+            "id": "6212aaea-c2fd-4324-bbdf-a8526b70c498",
+            "text": "Votre formulaire bénéficierait-il d'une structure organisée avec des sections clairement définies ?",
+            "link": "fieldset"
+         },
+         {
+            "id": "c6a15c2b-0d7f-421f-b90b-b1400f7740d7",
+            "text": "Votre interface nécessite-t-elle un menu déroulant pour permettre aux utilisateurs de choisir parmi plusieurs options ?",
+            "link": "select"
+         },
+         {
+            "id": "eb32c9ac-22e5-4987-9648-7e09887fcd13",
+            "text": "Avez-vous besoin d'une zone où les utilisateurs peuvent écrire un texte relativement long, comme un commentaire ou un message ?",
+            "link": "textarea"
+         },
+         {
+            "id": "e9a18d3b-a1af-4f14-b647-f86f085d4a7d",
+            "text": "Avez-vous besoin d'afficher visuellement le niveau d'avancement d'une tâche ou d'un processus ?",
+            "link": "progress"
+         },
+         {
+            "id": "58c4bc11-b6d5-4282-8bc7-553139d91349",
+            "text": "Avez-vous besoin d'afficher une valeur numérique qui fait partie d'une plage définie, comme un pourcentage ou une échelle ?",
+            "link": "meter"
+         },
+         {
+            "id": "83f6a82f-8213-4f35-8ba1-ab1642548bb0",
+            "text": "Avez-vous besoin de créer ou de manipuler des images ou des graphiques dynamiques directement dans votre page web ?",
+            "link": "canvas"
+         }
+      ]
+   },
+   {
+      "id": "1c05b9dc-1044-4d1f-80fa-9cc463f0312b",
+      "text": "Votre page requiert-elle l'utilisation de tableaux pour présenter des données ?",
+      "subQuestions": [
+         {
+            "id": "a0e09044-341c-4425-b490-0f6f131e4255",
+            "text": "Avez-vous besoin de définir la structure de base de votre tableau ?",
+            "link": "table"
+         },
+         {
+            "id": "8134d987-e2fc-4e28-aa87-eec026512ffd",
+            "text": "Souhaitez-vous rendre votre tableau plus accessible, notamment pour les utilisateurs ayant des besoins spécifiques, en ajoutant un titre explicatif ?",
+            "link": "caption"
+         },
+         {
+            "id": "3b9cc485-5dd4-4600-a21a-1320a73dfec1",
+            "text": "Votre tableau contient-il des lignes d'en-tête qui décrivent les colonnes ou les données qu'elles contiennent ?",
+            "link": "thead"
+         },
+         {
+            "id": "b6bd386b-2327-4eba-8fff-fcaac97d9e1b",
+            "text": "Votre tableau contient-il un ensemble principal de données ou de lignes que vous souhaitez distinguer clairement des en-têtes ou des pieds de tableau ?",
+            "link": "tbody"
+         },
+         {
+            "id": "1f01a32b-51b5-490e-a2c4-ff80a0e91bd4",
+            "text": "Avez-vous des informations de résumé ou des données de conclusion, comme des totaux ou des moyennes, que vous souhaitez présenter à la fin de votre tableau ?",
+            "link": "tfoot"
+         },
+         {
+            "id": "ea2f0401-4f95-40ea-a356-0c8cf821599f",
+            "text": "Avez-vous des données ou des informations que vous souhaitez organiser en lignes horizontales au sein d'un tableau ?",
+            "link": "tr"
+         },
+         {
+            "id": "f2875f42-d42a-4257-be78-c4dbe3334b15",
+            "text": "Avez-vous des titres ou des catégories spécifiques pour les colonnes ou les lignes de votre tableau qui doivent être mis en évidence ?",
+            "link": "th"
+         },
+         {
+            "id": "4e79a7fc-b707-48cd-84fe-a0fc95e28c29",
+            "text": "Avez-vous des informations spécifiques ou des données que vous souhaitez placer dans une cellule individuelle au sein d'une ligne de votre tableau ?",
+            "link": "td"
+         },
+         {
+            "id": "fb2e1c4b-84a7-4749-8b20-8c70f2bb5838",
+            "text": "Voulez-vous améliorer l'accessibilité de votre tableau en définissant clairement la structure des colonnes ?",
+            "link": "col"
+         },
+         {
+            "id": "deb4dacb-128e-4366-bf97-59e967192a60",
+            "text": "Souhaitez-vous regrouper plusieurs colonnes pour en améliorer l'accessibilité et clarifier leur relation ?",
+            "link": "colgroup"
+         }
+      ]
+   }
+]
