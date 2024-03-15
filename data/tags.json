@@ -1,0 +1,40 @@
+[
+   {
+      "title": "La balise <main>",
+      "sections": [
+         {
+            "subtitle": "Qu'est-ce que c'est ?",
+            "content": ["La balise <main> est utilisée pour encadrer le contenu principal d'une page web. Ce contenu est unique à la page et se distingue de ce qui se trouve dans les autres parties comme les barres de navigation, les en-têtes, les pieds de page, ou les menus latéraux."]
+         },
+         {
+            "subtitle": "Où l'utiliser ?",
+            "content": [
+               "Placez <main> autour du contenu central et unique de chaque page. Par exemple, dans un article de blog, le texte de l'article serait entouré par la balise <main>.", 
+               "Chaque page doit avoir une seule balise <main> pour indiquer clairement où se trouve le contenu principal."
+            ]
+         },
+         {
+            "subtitle": "Pourquoi est-elle importante pour l'accessibilité ?",
+            "content": [
+               "La balise <main> aide les lecteurs d'écran et les aides technologiques à identifier rapidement le contenu principal de la page. Cela permet aux utilisateurs avec des besoins spéciaux de naviguer plus facilement et de trouver ce qu'ils cherchent sans distractions.",
+               "Elle est particulièrement utile pour sauter les éléments de navigation et accéder directement au contenu important."
+            ]
+         },
+         {
+            "subtitle": "Bonnes pratiques d'accessibilité",
+            "content": [
+               "Unicité : Utilisez une seule balise <main> par page.",
+               "Placement : Placez la balise <main> après les éléments d'en-tête (<header>) et de navigation (<nav>), mais avant les éléments de pied de page (<footer>).",
+               "Contenu distinct : Assurez-vous que le contenu à l'intérieur de <main> est spécifique à cette page et se distingue des autres sections globales du site."
+            ]
+         },
+         {
+            "subtitle": "Pour plus d'informations",
+            "externalLinks": [
+               "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main",
+               "https://html.spec.whatwg.org/dev/grouping-content.html#the-main-element"
+            ]
+         }
+      ]
+   }
+]
