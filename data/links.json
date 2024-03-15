@@ -1,0 +1,262 @@
+[
+   {
+      "id": "64adb6d2-5058-48e9-ba12-8fa21af10bae",
+      "links": "main"
+   },
+   {
+      "id": "916bd4d7-695e-4801-9d06-96f4f7abf1b1",
+      "links": "article"
+   },
+   {
+      "id": "951ef617-119b-4215-ba66-7b3f4a4d6bf9",
+      "links": "section"
+   },
+   {
+      "id": "ef37f278-8e25-450a-83bb-d86e2c3d7d66",
+      "links": "aside"
+   },
+   {
+      "id": "f3437e05-7b9d-4bf4-a280-18c3115c1d1c",
+      "links": "header"
+   },
+   {
+      "id": "660b4b81-f1cc-4c84-aaf8-a26649c4bd3e",
+      "links": "footer"
+   },
+   {
+      "id": "ccde531a-a199-4941-aabf-54c6bab49a1a",
+      "links": "hgroup"
+   },
+   {
+      "id": "2d872456-7287-4c11-81e5-f60875258298",
+      "links": "nav"
+   },
+   {
+      "id": "84e54556-4c0c-4d9a-bed7-ae8dd06e7b11",
+      "links": "figure"
+   },
+   {
+      "id": "c90ad8e8-7fa1-446c-a17f-b6b48e5dc8fd",
+      "links": "figcaption"
+   },
+   {
+      "id": "17d743f6-3d13-43f5-9b38-140e61fa6a5e",
+      "links": "address"
+   },
+   {
+      "id": "16aee6c5-e154-4351-8c59-892a6e688102",
+      "links": "div"
+   },
+   {
+      "id": "e1113ef3-0a5a-4d31-bad9-0e228253b408",
+      "links": "p"
+   },
+   {
+      "id": "e4831ec0-2c76-4cff-a0d5-c121e7002534",
+      "links": "les-balises-headings"
+   },
+   {
+      "id": "8f4405eb-f627-4f81-b4df-628eeb0240f4",
+      "links": "strong"
+   },
+   {
+      "id": "04d82218-58d5-4f31-a027-cd2a17ddc3a4",
+      "links": "em"
+   },
+   {
+      "id": "967e59ed-a304-46b9-aa33-8ec2b4cdc09e",
+      "links": "blockquote"
+   },
+   {
+      "id": "1bdef70a-09fc-4bb9-ba14-bceac5d52965",
+      "links": "q"
+   },
+   {
+      "id": "27f54eb6-115c-4c0d-a540-0830bbf52fdd",
+      "links": "cite"
+   },
+   {
+      "id": "084362da-8ca5-4c88-8b4c-f4b64bb8c4d9",
+      "links": "code"
+   },
+   {
+      "id": "8b66df7e-4101-4ba9-b205-30a72fc7ce11",
+      "links": "pre"
+   },
+   {
+      "id": "6e445050-385e-4e6e-a4e1-d759a106e275",
+      "links": "span"
+   },
+   {
+      "id": "56bf8342-3fa6-4b01-a475-4ebbf6a455e5",
+      "links": "img"
+   },
+   {
+      "id": "e307cac6-54ae-40bb-bb23-db65291b5935",
+      "links": "picture"
+   },
+   {
+      "id": "4c2b4292-9dd8-46e6-a0bb-d067aea9bd83",
+      "links": "audio"
+   },
+   {
+      "id": "6deb3d63-9226-490a-8a5a-b6074f4ddf27",
+      "links": "video"
+   },
+   {
+      "id": "60eee17f-d29a-49e0-81bf-2c0a9918aa5b",
+      "links": "track"
+   },
+   {
+      "id": "670af939-cfce-43b7-b452-14cb64f84cf3",
+      "links": "source"
+   },
+   {
+      "id": "08475635-dd19-4e0b-b12a-4c2301c8b9dd",
+      "links": "map"
+   },
+   {
+      "id": "265083dc-cc8c-49b1-91bb-24334b49233a",
+      "links": "area"
+   },
+   {
+      "id": "5362b1ad-8de2-4139-8003-fa4e4ef4907c",
+      "links": "iframe"
+   },
+   {
+      "id": "70016135-0e14-47c5-902e-b29a36b30099",
+      "links": "dl"
+   },
+   {
+      "id": "1410b0e4-4340-48b8-9f9a-4f7c1bca5f27",
+      "links": "dt"
+   },
+   {
+      "id": "0e2dbe7a-f1fd-4f50-b099-66fde1e144a8",
+      "links": "dd"
+   },
+   {
+      "id": "bfce8751-b5b4-45d4-b0d8-d8cfbe787d8a",
+      "links": "div"
+   },
+   {
+      "id": "2a40fed6-bc29-44c8-85b0-b35b7d82b4c2",
+      "links": "ul"
+   },
+   {
+      "id": "2474735c-a956-406b-bbd5-dd3376823fd8",
+      "links": "ol"
+   },
+   {
+      "id": "c6f51882-ec29-4866-a6bc-cc4fdbfac2df",
+      "links": "li"
+   },
+   {
+      "id": "8b500151-f0c3-4ff6-b1cb-a12b1faa58e7",
+      "links": "a"
+   },
+   {
+      "id": "bd919ca4-4788-4c8f-b6ed-6e6913130195",
+      "links": "details"
+   },
+   {
+      "id": "8c89407b-46ed-4de4-8c2d-6be0fd934bf3",
+      "links": "summary"
+   },
+   {
+      "id": "f66f38df-4633-4785-ae36-11bbea9ba898",
+      "links": "dialog"
+   },
+   {
+      "id": "0f5e40b8-93ac-4340-a797-e46c45580cd6",
+      "links": "button"
+   },
+   {
+      "id": "300700d3-d101-4cad-8e85-81557e5c303b",
+      "links": "form"
+   },
+   {
+      "id": "37d81c05-7a4f-43db-9d62-bc98de507fcc",
+      "links": "label"
+   },
+   {
+      "id": "f8a9b67e-69f9-4f3c-a560-424376e5d7dd",
+      "links": "input"
+   },
+   {
+      "id": "d7326bbb-e2f6-466a-80ff-632f9880ad66",
+      "links": "fieldset"
+   },
+   {
+      "id": "88bdfce7-db02-4101-9cbe-44794171c610",
+      "links": "legend"
+   },
+   {
+      "id": "a6424a85-b940-41fe-b511-bf08993fe8ac",
+      "links": "select"
+   },
+   {
+      "id": "7c127a3a-e8c1-4059-bc77-f8dddde5834f",
+      "links": "option"
+   },
+   {
+      "id": "ec978e41-9f2e-460f-9f0f-54f4c796b17e",
+      "links": "optgroup"
+   },
+   {
+      "id": "6cf1f60e-a90e-4a26-a701-8e81e3d892ff",
+      "links": "textarea"
+   },
+   {
+      "id": "0f9d4e62-890e-40e0-a061-d906edc1e645",
+      "links": "progress"
+   },
+   {
+      "id": "acb79a20-69ce-4ea8-a0f5-596a1d91f809",
+      "links": "meter"
+   },
+   {
+      "id": "8b3c4251-9930-4b3c-999d-6b63b3f43f69",
+      "links": "canvas"
+   },
+   {
+      "id": "0ddebd3e-90c6-4e99-a3d1-808e3f56e1ef",
+      "links": "table"
+   },
+   {
+      "id": "f9547ff7-54e5-4b24-9482-dfd69a573181",
+      "links": "caption"
+   },
+   {
+      "id": "5889258a-3356-4166-bb3e-fc9e8c8a73ff",
+      "links": "thead"
+   },
+   {
+      "id": "d0715b74-6c64-4871-bf54-f2198673f13b",
+      "links": "tbody"
+   },
+   {
+      "id": "2e6cd971-d75a-46c7-8077-3179f5c99004",
+      "links": "tfoot"
+   },
+   {
+      "id": "6814eaaf-4bc4-4610-a236-a48fa770ce9c",
+      "links": "tr"
+   },
+   {
+      "id": "c70bf29c-07a7-480c-87e4-aa3215b87bb1",
+      "links": "th"
+   },
+   {
+      "id": "f569b8dd-6e80-4ea8-84bc-f338f79c2224",
+      "links": "td"
+   },
+   {
+      "id": "546e7d85-1f95-4593-9f97-32e391f44b62",
+      "links": "col"
+   },
+   {
+      "id": "e6983050-a711-41c1-a2d1-2fd243b0bb2a",
+      "links": "colgroup"
+   }
+]
